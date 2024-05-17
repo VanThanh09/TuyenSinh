@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuyển sinh</title>
+    <link rel="icon" type="image/x-icon" href="https://ou.edu.vn/wp-content/uploads/2019/01/OpenUniversity.png">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/trang_chu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../javascript/trang_chu.js"></script>
+</head>
+<body>
+
+    <header class="flex"> <!-- logo trường học -->
+        <div><img src="../image/logo/logo-w1.png" height="100" alt="Logo"></div>
+        <span class="brandtext">
+            Quảng bá tuyển sinh
+            <br>
+            Trường Đại học Mở Thành phố Hồ Chí Minh
+        </span>
+    </header>
+
+    <nav class="main"> <!-- danh mục 4 web con --> 
+        <ul class="flex">
+            <li><a href="Trang_chu.html" style="color: rgb(18, 6, 192);border-bottom: 2px solid rgb(18, 6, 192);"> <i class="fa-solid fa-house"></i> Trang chủ</a></li>
+            <li><a href="Khoa_nganh.html">Khoa - Ngành</a></li>
+            <li><a href="Thong_tin.html">Thông tin</a></li>
+            <li><a href="Lien_he.html">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <section> <!-- Cac vung thong tin -->
+
+        <!-- slide gioi thieu -->
+        <div class="section-0">
+            <div class="slider">
+                <i class="fa-solid fa-chevron-left btn-control ptn-prev"></i>
+                <ul class="slide-dots flex">
+                    <li><i class="fa-solid fa-circle slide-dot active" data-index = "1"></i></li>
+                    <li><i class="fa-solid fa-circle slide-dot" data-index = "2"></i></li>
+                    <li><i class="fa-solid fa-circle slide-dot" data-index = "3"></i></li>
+                    <li><i class="fa-solid fa-circle slide-dot" data-index = "4"></i></li>
+                </ul>
+                <div class="slide-wrapper">
+                    <div class="slide-main flex">
+                        <div class="slide-item"> <img src="../image/tuyen-sinh/tuyensinh_2.png" alt=""></div>
+                        <div class="slide-item"> <img src="../image/tuyen-sinh/tuyensinh_1.png" alt=""></div>
+                        <div class="slide-item"> <img src="../image/tuyen-sinh/tuyensinh_3.png" alt=""></div>
+                        <div class="slide-item"> <img src="../image/tuyen-sinh/tuyensinh_4.png" alt=""></div>
+                    </div>
+                </div>
+                <i class="fa-solid fa-chevron-right btn-control ptn-next"></i>
+            </div>
+        </div>
+        <!-- gioi thieu chung -->
+        
+        <div class="section-1 margin-set">
+            <div>
+                <h2 class="contents">Giới thiệu chung</h2>
+                <hr width="50px" style="margin-bottom: 20px; height: 4px; background-color: #F9AA28; border: 0;">
+            </div>
+            <div class="gioi-thieu flex">
+                <div style="width: 65%;" class="thong-tin">
+                    <h3>Thông tin trường Đại học Mở Tp.HCM</h3>
+                    <p>Được thành lập vào năm 1990 và trở thành trường đại học công lập từ năm 2006, đến nay Trường Đại học Mở Thành phố Hồ Chí Minh là trường đại học đa ngành trực thuộc Bộ Giáo dục và Đào tạo, có nhiệm vụ đào tạo đại học và sau đại học, với các hình thức đào tạo chính quy và giáo dục thường xuyên, đào tạo các điểm vệ tinh,…nhằm đáp ứng nhu cầu học tập đa dạng của xã hội, góp phần tăng cường đội ngũ cán bộ khoa học-kỹ thuật cho đất nước.</p>
+                    <h3>Sứ mạng</h3>
+                    <p>Sứ mạng của Trường Đại học Mở Thành phố Hồ Chí Minh là đóng  góp và nâng cao tri thức cho cộng đồng bằng các phương thức linh  hoạt và thuận tiện nhất.</p>
+                    <h3>Tầm nhìn</h3>
+                    <p>Trường Đại học Mở Thành phố Hồ Chí Minh phấn đấu trở thành trường đại học công lập đa ngành hàng đầu ở Việt Nam với định hướng ứng dụng, phổ cập kiến thức và gắn kết cộng đồng; trong đó hoạt động đào tạo từ xa phát triển ngang tầm khu vực Đông Nam Á.</p>
+                </div>
+                <div style="width: 35%;" class="news">
+                    <!-- new -->
+                    <div class="single-new" id="new">
+                        <!-- làm javascript -->
+                        <!-- <div class="new flex">
+                            <div class="new-col-1">
+                                <a target="_blank" href="https://tuyensinh.ou.edu.vn/thong-bao-tuyen-sinh-chuong-trinh-lien-ket-quoc-te-nam-2023-dot-2">
+                                    <img src="image/img-new/thong_bao_thumb.jpg" alt="Thông báo tuyển sinh trương trình liên kết quốc tế năm 2023">
+                                </a>
+                            </div>
+                            <div class="new-col-2">
+                                <a target="_blank" href="https://tuyensinh.ou.edu.vn/thong-bao-tuyen-sinh-chuong-trinh-lien-ket-quoc-te-nam-2023-dot-2" title="Thông báo tuyển sinh chương trình liên kết quốc tế năm 2023 - Đợt 2">Thông báo tuyển sinh chương trình liên kết quốc tế năm 2023 - Đợt 2</a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ly do chon dai hoc mo -->
+        <div class="section-2 margin-set">
+            <div>
+                <h2 class="contents">Lý do bạn nên chọn đại học Mở TP.HCM</h2>
+                <hr width="50px" style="margin-bottom: 20px; height: 4px; background-color: #F9AA28; border: 0;">
+            </div>
+            <div class="ly-do flex">
+                <div class="ly-do-text" id="ly-do-text">
+                    <!-- làm javascript -->
+                    <!-- <p>
+                        <span class="ly-do-lon">
+                            <span>1. </span>
+                            <span>Trường Đại học công lập:</span>
+                        </span>
+                        <span class="ly-do-nho">có bề dày và kinh nghiệm đào tạo suốt 30 năm qua và nhiều thế hệ học trò thành đạt.</span>
+                    </p>  -->
+                </div>
+                <div class="ly-do-video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Us1okcXiHpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                   
+            </div>
+        </div>
+
+        <!-- thong tin tuyen sinh dai hoc chinh quy -->
+        <div class="section-3 margin-set">
+            <div style="margin-bottom: 20px;">
+                <h2 class="contents">Thông tin tuyển sinh đại học chính quy</h2>
+                <hr width="50px" style="margin-bottom: 20px; height: 4px; background-color: #F9AA28; border: 0;">
+            </div>
+            <div class="container">
+                    <div class="btn-box flex">
+                        <div class="btn-box-prev active-1" id="btn-box-prev-0">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        <div class="btn-box-next" id="btn-box-next-0">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="container-contents">
+                        <div class="container-content flex" id="chinh-quy" >
+                            <!-- làm javascript -->
+                            <!-- <a href="#" class="content-item">
+                                <article>
+                                        <div class="thumb">
+                                            <img src="../image/tuyen-sinh/tuyensinh_1.png" alt="">
+                                        </div>
+                                        <div class="title-info">
+                                            <p>Thông báo Ngưỡng điểm nhận hồ sơ đăng ký xét tuyển Kết quả thi tốt nghiệp THPT năm 2023</p>
+                                        </div>
+                                </article>
+                            </a> -->
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!-- thong tin tuyen sinh dai hoc bang thu 2 va lien thong -->
+        <div class="section-4 margin-set">
+            <div style="margin-bottom: 20px;">
+                <h2 class="contents">THÔNG TIN TUYỂN SINH ĐH BẰNG THỨ 2 VÀ LIÊN THÔNG CĐ-ĐH</h2>
+                <hr width="50px" style="margin-bottom: 20px; height: 4px; background-color: #F9AA28; border: 0;">
+            </div>
+            <div class="container">
+                    <div class="btn-box flex">
+                        <div class="btn-box-prev active-1" id="btn-box-prev-1">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        <div class="btn-box-next" id="btn-box-next-1">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="container-contents">
+                        <div class="container-content flex" id="lien-thong" >
+                            <!-- làm javascript -->
+                            <!-- <a href="#" class="content-item">
+                                <article>
+                                        <div class="thumb">
+                                            <img src="../image/tuyen-sinh/tuyensinh_1.png" alt="">
+                                        </div>
+                                        <div class="title-info">
+                                            <p>Thông báo Ngưỡng điểm nhận hồ sơ đăng ký xét tuyển Kết quả thi tốt nghiệp THPT năm 2023</p>
+                                        </div>
+                                </article> -->
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="flex" style="max-width: 100%;"> <!-- bản quyền, thông tin liên hệ, thông tin liên quan.... --> 
+        <div>
+            <img src="../image/logo/Logo-full.png">
+        </div>
+        <div>
+            <div style="color: #fff;" class="text-footer">LIÊN HỆ</div>
+            <div class="info">
+                <div>
+                    <i class="fa-solid fa-house fa"></i>
+                    <span>35 - 37 Hồ Hảo Hớn, Phường Cô Giang, Quận 1, TP. HCM.</span>
+                    <br>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone fa-rotate-270 fa"></i>
+                    <span>028-38364748.</span>
+                    <br>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope fa"></i>
+                    <span><a href="mailto:ou.edu.vn" class="mail" target="_blank">ou@ou.edu.vn.</a></span>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+            <div style="color: #fff;" class="text-footer">TRANG XÃ HỘI</div>
+            <a href="https://www.facebook.com/TruongDaiHocMo" target="_blank"><i class="fa-brands fa-facebook-f fa-2xl" style="color: #ffffff; width: 10%;"></i></a>
+            <a href="https://www.youtube.com/@HoChiMinhCityOpenUniversity" target="_blank"><i class="fa-brands fa-youtube fa-2xl" style="color: #e41111; width: 10%;"></i></a>
+        </div>
+    </footer>
+    
+</body>
+</html>

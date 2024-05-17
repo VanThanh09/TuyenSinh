@@ -1,0 +1,125 @@
+section {
+    padding-bottom: 15px;
+    background-color: rgb(236, 236, 240);
+}
+
+h2.contents {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1150a0;
+    margin: 0;
+    padding: 20px;
+}
+
+div.container {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+div::-webkit-scrollbar {
+    width: 7px;
+    background-color: lightgray;
+}
+
+div::-webkit-scrollbar-thumb {
+    width: 6px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+/* menu list tab */
+
+.active {
+    background-color: #1150a0 !important;
+    border-radius: 4px;
+    color: white !important;
+}
+
+div.menu-list-tab ul {
+    box-sizing: border-box;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}
+
+div.menu-list-tab ul li {
+    display: inline;
+    
+}
+
+
+div.menu-list-tab ul li:hover {
+    background-color: rgb(151, 151, 163);
+}
+
+div.menu-list-tab ul li:hover a {
+    color: white;
+}
+
+div.menu-list-tab a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+    padding: 25px 20px;
+    transition: all .5s;
+} 
+
+
+/* noi dung tab */
+
+div.noi-dung-tab {
+    width: 100%;
+    height: 480px;
+    box-sizing: border-box;
+    /* padding: 20px; */
+    /* border: 1px solid #e1e1e1; */
+    border-radius: 3px;
+    font-family: inherit;
+    background-color: white !important;
+    overflow-y : auto;
+    position: relative;
+}
+
+div.noi-dung {
+    padding: 25px;
+    overflow: hidden;
+}
+
+div.noi-dung h4 {
+    color: #0099ff;
+    margin: 15px 0;
+    text-transform: uppercase;
+    
+}
+
+div.noi-dung p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+p.lui-1 {
+    margin-left: 25px !important;
+}
+
+p.lui-2 {
+    margin-left: 45px !important;
+}
+
+p.lui-3 {
+    margin-left: 65px !important;
+}
+
+
+div.noi-dung strong {
+    color: #ff0000;
+}

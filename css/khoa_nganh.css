@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div.main {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div.text-main{
+    padding: 20px 0;
+}
+
+h2.contents { 
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #c0392b;
+    margin: 0;
+}
+
+
+/* phan table */
+div.table {
+    margin: 20px 0; 
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+div.table table {
+    width: 90%;
+    margin: 0px auto;
+    border-collapse: collapse;   
+}  
+
+thead.table-head {
+    width: 100%;
+}
+
+div.table td {
+    height: 50px;
+    text-align: center;
+    border: 2px solid black;
+}   
+
+div.table li {
+    margin: 5px 0;
+}
+
+div.table a {
+    text-decoration: none;
+    color: black;
+}
+
+div.table a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+thead.table-head {
+    font-weight: bold;
+    text-align: center;
+    color: #c0392b;
+} 
+
+div.table tr:hover{
+    background-color: rgba(243, 244, 245, 0.356);
+}

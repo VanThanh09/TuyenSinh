@@ -1,0 +1,36 @@
+Header (Đầu trang):
+
+Đặt logo và slogan của trường hoặc tổ chức tuyển sinh ở phần trên cùng của trang web để người dùng dễ nhận ra thương hiệu.
+Bao gồm các liên kết như "Trang chủ", "Tuyển sinh", "Chương trình học", "Hướng dẫn" và "Liên hệ" để người dùng dễ dàng điều hướng trên trang web.
+Hero section (Phần đầu trang):
+
+Sử dụng hình ảnh đại diện hoặc video thu hút để hiển thị không gian học tập hoặc sinh viên hạnh phúc trong môi trường học tập.
+Đặt tiêu đề chính và thông điệp hấp dẫn để thu hút sự chú ý và tạo sự quan tâm với khách truy cập.
+Giới thiệu về trường/tổ chức:
+
+Một phần giới thiệu về trường hoặc tổ chức, nêu rõ các giá trị và ưu điểm độc đáo của nó.
+Chia sẻ thông tin về lịch sử, danh tiếng, các chương trình học, cơ sở vật chất, và thành tựu nổi bật.
+Sử dụng hình ảnh và video để minh họa và làm nổi bật các hoạt động, sự kiện và thành viên trong cộng đồng.
+Chương trình học:
+
+Đưa ra danh sách các chương trình học có sẵn hoặc được cung cấp bởi trường/tổ chức.
+Cung cấp thông tin về mô tả chương trình, yêu cầu tuyển sinh, chương trình đào tạo, và cơ hội nghề nghiệp sau khi tốt nghiệp.
+Tạo các liên kết để người dùng có thể xem chi tiết về từng chương trình học.
+Thông tin tuyển sinh:
+
+Đưa ra thông tin về quy trình tuyển sinh, ngày tuyển sinh, hạn chót nộp hồ sơ, và yêu cầu cần thiết.
+Cung cấp biểu mẫu hoặc liên kết để người dùng có thể nộp đơn trực tuyến.
+Liệt kê các thông tin liên hệ như số điện thoại, địa chỉ email hoặc địa chỉ để nhận hồ sơ tuyển sinh.
+Thông tin hỗ trợ:
+
+Đưa ra thông tin về các dịch vụ hỗ trợ như học bổng, tư vấn hướng nghiệp, và hỗ trợ sinh viên.
+Cung cấp liên kết hoặc thông tin liên hệ để người dùng có thể tìm hiểu thêm hoặc liên hệ với phòng hỗ trợ.
+Thông tin liên hệ:
+
+Hiển thị địa chỉ, số điện thoại, địa chỉ email và các kênh truyền thông xã hội để người dùng có thể liên hệ hoặc tìm hiểu thêm thông tin.
+Cung cấp một biểu mẫu liên hệ để người dùng có thể gửi câu hỏi hoặc yêu cầu tư vấn.
+Footer (Chân trang):
+
+Liệt kê các liên kết quan trọng như "Trang chủ", "Tuyển sinh", "Chương trình học", "Hướng dẫn" và "Liên hệ".
+Đặt logo và thông tin bản quyền.
+Đây chỉ là một gợi ý và bạn có thể tùy chỉnh bố cục này phù hợp với yêu cầu và nhu cầu cụ thể của trường hoặc tổ chức tuyển sinh.

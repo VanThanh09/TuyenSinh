@@ -1,0 +1,41 @@
+[{
+    "STT" : 1,
+    "link": "https://tuyensinh.ou.edu.vn/thong-bao-tuyen-sinh-chuong-trinh-lien-ket-quoc-te-nam-2023-dot-2",
+    "name": "Thông báo tuyển sinh chương trình liên kết quốc tế năm 2023 - Đợt 2",
+    "image": "../image/img-new/ban_tin_thumb.png"
+}, {
+    "STT" : 2,
+    "link": "https://tuyensinh.ou.edu.vn/thong-bao-tuyen-sinh-chuong-trinh-lien-ket-quoc-te-dh-flinders-uc-nam-2023",
+    "name": "Thông báo tuyển sinh chương trình liên kết quốc tế ĐH Fliders, Úc năm 2023",
+    "image": "../image/img-new/thong_bao_thumb.jpg"
+},{
+    "STT" : 3,
+    "link": "https://tuyensinh.ou.edu.vn/thong-bao-tuyen-sinh-chuong-trinh-lien-ket-dao-tao-voi-dai-hoc-flinders-khoa-5",
+    "name": "Thông báo tuyển sinh chương trình liên kết đào tạo với đại học Flinders - Khóa 5",
+    "image": "../image/img-new/thong_bao_2_thumb.jpg"
+},{
+    "STT" : 4,
+    "link": "https://tuyensinh.ou.edu.vn/ke-hoach-to-chuc-kiem-tra-trinh-do-tieng-anh-dau-vao-cho-tan-sinh-vien-khoa-2022",
+    "name": "Kế hoạch tổ chức kiểm tra trình độ tiếng anh đầu vào cho tân sinh viên khóa 2022",
+    "image": "../image/img-new/diem_chuan_thumb.png"
+},{
+    "STT" : 5,
+    "link": "https://tuyensinh.ou.edu.vn/2022-thong-bao-tuyen-sinh-dai-hoc-bang-thu-2-va-lien-thong-cddh-he-chinh-quy-nam-2022-1661914713",
+    "name": "[2022] Thông báo tuyển sinh Đại học bằng thứ 2 và Liên thông CĐ-ĐH hệ chính quy năm 2022",
+    "image": "../image/img-new/thong_tin_tuyen_sinh_thumb.jpg"
+},{
+    "STT" : 6,
+    "link": "https://tuyensinh.ou.edu.vn/172-diem-trung-tuyen-dai-hoc-cq-2016,-2017",
+    "name": "Điểm trúng tuyển đại học CQ 2016-2017",
+    "image": "../image/img-new/thong_bao_thumb.jpg"
+},{
+    "STT" : 7,
+    "link": "https://tuyensinh.ou.edu.vn/97-huong-dan-dien-phieu-dang-ky-xet-tuyen-2016",
+    "name": "Hướng dẫn điền phiếu đăng ký xét tuyển 2016",
+    "image": "../image/img-new/phieu_dang_ki_thumb.png"
+},{
+    "STT" : 8,
+    "link": "https://tuyensinh.ou.edu.vn/214-du-hoc-sieu-tiet-kiem-voi-nhieu-co-hoi-hoc-bong",
+    "name": "Du học siêu tiết kiệm với nhiều cơ hội học bổng",
+    "image": "../image/img-new/thong_tin_tuyen_sinh_thumb.jpg"
+}]

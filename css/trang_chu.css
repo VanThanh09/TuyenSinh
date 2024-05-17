@@ -1,0 +1,270 @@
+:root {
+    --space-margin: 2rem;
+}
+
+div::-webkit-scrollbar {
+    width: 7px;
+    background-color: lightgray;
+}
+
+div::-webkit-scrollbar-thumb {
+    width: 6px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.margin-set {
+    margin: 20px 0;
+}
+
+/* SECTION-0 */
+
+div.section-0 {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+div.slider {
+    position: relative;
+    max-width: 1110px;
+    margin: 0px auto;
+}
+
+i.btn-control {
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    transform:translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    color: rgba(88, 69, 66, 0.411);
+}
+
+i.ptn-prev {
+    left: 10px;
+}
+
+i.ptn-next {
+    right: 10px;
+}
+
+ul.slide-dots {
+    position: absolute;
+    list-style-type: none;
+    color: rgba(171, 178, 191, 0.5);
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+i.slide-dot {
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: color .2s ease;
+}
+
+i.active.slide-dot {
+    color: rgba(66, 69, 73, 0.89);
+}
+
+div.slide-wrapper {
+    position: relative;
+    height: auto;
+    width: 100%;
+    overflow: hidden; 
+}
+
+div.slide-main {
+    position: relative;
+    transition: transform 1s ease;
+}
+
+div.slide-item {
+    width: 100%;
+    height: 100%;
+    flex: 1 0 100%;
+}
+
+div.slide-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* SECTION  1*/
+
+h2.contents {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1150a0;
+}
+
+div.gioi-thieu {
+    margin: 0 var(--space-margin);
+    box-sizing: border-box;
+}
+
+div.thong-tin {
+    color: #59606B;
+    max-height: 300px;
+    overflow: auto;
+}
+
+div.thong-tin > h3 {
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+div.thong-tin > h3:first-child {
+    margin-top: 0;
+}
+
+div.thong-tin > p {
+    margin: 0;
+}
+
+div.news {
+    background-color: #e8ebf4;
+    box-sizing: border-box;
+    padding: 5px;
+    max-height: 300px;
+    min-height: none;
+    overflow: auto;
+}
+
+div.new {
+    padding: 20px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+div.new a {
+    text-decoration: none;
+    color: #0D4DA1;
+}
+
+div.new a:hover {
+    color: #c05327;
+}
+
+div.new-col-1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px 2px;
+}
+
+div.new-col-2 {
+    margin-left: 10px;
+    width: 80%;
+}
+
+/* SECTION 2 */
+
+div.ly-do {
+    margin: 0 var(--space-margin);
+    box-sizing: border-box;
+}
+
+div.ly-do-text {
+    box-sizing: border-box;
+    width: 65%;
+    max-height: 315px;
+    overflow: auto;
+}
+
+div.ly-do-video {
+    width: 35%;
+}
+
+span.ly-do-lon {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9AA28;
+}
+/* SECTION 3 */
+
+div.container {
+    background-color: #f7f7f7;
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    box-sizing: border-box;
+    border: 1px solid #e7e5e5;
+    border-radius: 4px;
+}
+
+
+div.btn-box {
+    padding: 5px 0;
+    position: relative;
+    /* border: 1px solid; */
+}
+
+div.btn-box-prev {
+    cursor: pointer;
+    font-size: 18px;
+    color: #51565f;
+    position: relative;
+    right: -100%;
+    transform: translateX(-500%);
+}
+
+div.btn-box-next {
+    cursor: pointer;
+    font-size: 18px;
+    color: #51565f;
+    position: relative;
+    right: -100%;
+    transform: translateX(-400%);
+}
+
+div.active-1 {
+    color: #babcbe;
+}
+
+div.container-contents { 
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+div.container-content {
+    position: relative;
+    transition: transform .5s ease;
+    /* transform: translateX(-33.3333%); */
+}
+
+div.container-content > a {
+    max-width: 33.33%;
+    flex: 1 0 33.33%;
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
+div.container-content > a:hover {
+    color: rgb(27, 15, 202);
+}
+
+div.container-content > a > article {
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+
+div.thumb img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

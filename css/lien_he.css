@@ -1,0 +1,88 @@
+h1.contents {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1150a0;
+}
+
+h2.contents {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
+
+div.contact-form {
+    background-color: #007bdd;
+
+}
+
+div.container {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+form#contactForm  label {
+    display: block;
+    margin: 15px 0;
+}
+
+form#contactForm  input {
+    width: 100%;
+    height: 34px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form#contactForm textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form#contactForm button {
+    width: 200px;
+    height: 34px;
+    margin-top: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #222222;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+
+div.truc-tiep {
+    padding: 20px;
+    width: 50%;
+}
+
+div.dia-chi a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+div.dia-chi p {
+    color: white;
+}
+
+div.dia-chi i {
+    margin-right: 10px;
+}

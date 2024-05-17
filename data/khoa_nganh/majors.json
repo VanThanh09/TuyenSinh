@@ -1,0 +1,125 @@
+[{
+        "Khoa": "Đào tạo đặc biệt",
+        "Ngành": [
+            "Quản trị kinh doanh",
+            "Tài chính - Ngân hàng",
+            "Kế toán",
+            "Công nghệ sinh học",
+            "CNKT Công trình xây dựng",
+            "Khoa học máy tính",
+            "Luật kinh tế",
+            "Ngôn ngữ anh",
+            "Ngôn ngữ trung quốc",
+            "Ngôn ngữ nhật"
+        ],
+        "Website": "http://www.ou.edu.vn/",
+        "Email": "dacbietsas@ou.edu.vn",
+        "Phone": "(028)3930.9918",
+        "Address": "Phòng 007 97 Võ Văn Tần, P. Võ Thị Sáu, Q.3"
+},{
+        "Khoa": "Công nghệ sinh học",
+        "Ngành": [
+            "Công nghệ sinh học",
+            "Công nghệ thực phẩm"
+        ],
+        "Website": "http://www.ou.edu.vn/",
+        "Email": "cnshkhoacongnghesinhhoc@ou.edu.vn",
+        "Phone": "(028)3838.6602",
+        "Address": "Phòng 602 35-37 Hồ Hảo Hớn, Quận 1"
+},{
+        "Khoa": "Công nghệ thông tin",
+        "Ngành": [
+            "Công nghệ thông tin",
+            "Hệ thống thông tin quản lý",
+            "Khoa học máy tính"
+        ],
+        "Website": "http://it.ou.edu.vn/",
+        "Email": "fcs@ou.edu.vn",
+        "Phone": "(028)3838.6603",
+        "Address": "Phòng 604 35-37 Hồ Hảo Hớn, Quận 1"
+},{
+        "Khoa": "Kế toán - Kiểm toán",
+        "Ngành": [
+            "Kế toán", 
+            "Kiểm toán"
+        ],
+        "Website": "http://www.ou.edu.vn/",
+        "Email": "ktkt@ou.edu.vn",
+        "Phone": "(028)3838.6608",
+        "Address": "Phòng 105 35-37 Hồ Hảo Hớn, Quận 1"
+},{
+        "Khoa": "Kinh tế và Quản lý công",
+        "Ngành": [
+            "Kinh tế"
+        ],
+        "Website": "http://www.ou.edu.vn/",
+        "Email": "ktqlckhoaktqlc@ou.edu.vn",
+        "Phone": "(028)3838.6615",
+        "Address": "Phòng 603 35-37 Hồ Hảo Hớn, Quận 1"
+},{
+        "Khoa": "Luật",
+        "Ngành": [
+            "Luật kinh tế",
+            "Luật"
+        ],
+        "Website": "http://www.ou.edu.vn/",
+        "Email": "luatkhoaluat.dhm@ou.edu.vn",
+        "Phone": "(028)3838.6601",
+        "Address": "Phòng 102 35-37 Hồ Hảo Hớn, Quận 1"
+},{
+        "Khoa": "Ngoại ngữ",
+        "Ngành": [
+            "Ngôn ngữ Anh",
+            "Ngôn ngữ Trung Quốc",
+            "Ngôn ngữ Nhật",
+            "Ngôn ngữ Hàn Quốc"
+        ],
+        "Website": "http://www.ou.edu.vn/",
+        "Email": "nnkhoangoaingu@ou.edu.vn",
+        "Phone": "(028)3838.6606",
+        "Address": "Phòng 503 35-37 Hồ Hảo Hớn, Quận 1"
+},{
+        "Khoa": "Quản trị kinh doanh",
+        "Ngành": [
+            "Quản trị kinh doanh",
+            "Kinh doanh quốc tế",
+            "Quản trị nhân lực",
+            "Marketing",
+            "Du lịch",
+            "Logistics và Quản lý chuỗi cung cứng"
+        ],
+        "Website": "http://kqtkd.ou.edu.vn/",
+        "Email": "qtkd@ou.edu.vn",
+        "Phone": "(028)3838.6604",
+        "Address": "Phòng 403 35-37 Hồ Hảo Hớn, Quận 1"
+},{
+        "Khoa": "Tài chính - Ngân hàng",
+        "Ngành": [
+            "Tài chính - Ngân hàng"
+        ],
+        "Website": "http://www.ou.edu.vn/",
+        "Email": "tcnhtcnh@ou.edu.vn",
+        "Phone": "(028)3838.6604",
+        "Address": "Phòng 402 35-37 Hồ Hảo Hớn, Quận 1"
+},{
+        "Khoa": "XHH - CTXH - ĐNA",
+        "Ngành": [
+            "Xã hội học",
+            "Công tác xã hội",
+            "Đông Nam Á học"
+        ],
+        "Website": "http://xhh.ou.edu.vn/",
+        "Email": "khoaxhh@ou.edu.vn",
+        "Phone": "(028)3838.6616",
+        "Address": "Phòng 703 35-37 Hồ Hảo Hớn, Quận 1"
+},{
+        "Khoa": "Xây dựng",
+        "Ngành": [
+            "Công nghệ kĩ thuật công trình xây đựng",
+            "Quản lý xây dựng"
+        ],
+        "Website": "http://ce.ou.edu.vn/",
+        "Email": "xaydungvadien@ou.edu.vn",
+        "Phone": "(028)3838.6617",
+        "Address": "Phòng 705 35-37 Hồ Hảo Hớn, Quận 1"
+}]

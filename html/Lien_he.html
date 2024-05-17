@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuyển sinh</title>
+    <link rel="icon" type="image/x-icon" href="https://ou.edu.vn/wp-content/uploads/2019/01/OpenUniversity.png">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/lien_he.css">
+    <script src="../javascript/lien_he.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="flex"> <!-- logo trường học -->
+        <div><img src="https://tuyensinh.ou.edu.vn/media/photos/media/logo/logo-w1.png" height="100" alt="Logo"></div>
+        <span class="brandtext">
+            Quảng bá tuyển sinh
+            <br>
+            Trường Đại học Mở Thành phố Hồ Chí Minh
+        </span>
+    </header>
+    <nav class="main"> <!-- danh mục 4 web con --> 
+        <ul class="flex">
+            <li><a href="Trang_chu.html"> <i class="fa-solid fa-house"></i> Trang chủ</a></li>
+            <li><a href="Khoa_nganh.html">Khoa - Ngành</a></li>
+            <li><a href="Thong_tin.html">Thông tin</a></li>
+            <li><a href="Lien_he.html" style="color: rgb(18, 6, 192);border-bottom: 2px solid rgb(18, 6, 192);">Liên hệ</a></li>
+        </ul>
+    </nav>
+    <section> <!-- các vùng con --> 
+        <div>
+            <h1 class="contents">Liên hệ</h1>
+            
+        </div>
+        <div class="contact-form flex" style="width: 95%; margin: 0 auto; border-radius: 5px;">
+            <div class="container">
+                <h2 class="contents">Gửi tin nhắn cho chúng tôi</h2>
+                <hr style=" height: 1px; background-color: #afaaa1; border: 0;">
+                <form id="contactForm" action="">
+                    <label for="name" class="name-input">Họ và tên:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email" class="name-input">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message" class="name-input">Tin nhắn:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit" onclick="loadMail()">Gửi</button>
+                </form>
+            </div>
+            <div class="truc-tiep">
+                <h2 class="contents">Liên hệ trực tiếp</h2>
+                <hr style=" height: 1px; background-color: #afaaa1; border: 0;">
+                <div class="dia-chi" >
+                    <p><a href="https://ou.edu.vn/co-so-1/" target="_blank"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>97 Võ Văn Tần P. 6, Q. 3 TP. Hồ Chí Minh</a></p>
+                    <p><a href="https://ou.edu.vn/co-so-2/" target="_blank"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>35-37 Hồ Hảo Hớn P. Cô Giang, Q. 1 TP. Hồ Chí Minh</a></p>
+                    <p><a href="https://ou.edu.vn/co-so-3/" target="_blank"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>371 Nguyễn Kiệm, P. 3, Q. Gò Vấp, TP. Hồ Chí Minh</a></p>
+                    <p><a href="https://ou.edu.vn/co-so-4/" target="_blank"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>02 Mai Thị Lựu, P. Đa Kao, Q. 1, TP. Hồ Chí Minh</a></p>
+                    <p><a href="https://ou.edu.vn/co-so-5/" target="_blank"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>68 Lê Thị Trung, P. Phú Lợi, TP. Thủ Dầu Một, Tỉnh Bình Dương</a></p>
+                    <p><a href="https://ou.edu.vn/co-so-6/" target="_blank"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Đường số 9, P. Long Bình Tân, TP. Biên Hòa, Tỉnh Đồng Nai</a></p>
+                    <p><a href="https://ou.edu.vn/co-so-7/" target="_blank"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Tổ dân phố 17, P. Ninh Hiệp, Thị Xã Ninh Hòa, Tỉnh Khánh Hòa</a></p>
+                    <p>ĐIỆN THOẠI: 028-38364748.</p>
+                    <p>FAX: 028-39207639 HOẶC 028-39207640</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p style="text-align: center;">&copy; 2023 Trường Đại học Mở Thành phố Hồ Chí Minh.</p>
+        </div>
+    </section>
+    <footer class="flex"> <!-- bản quyền, thông tin liên hệ, thông tin liên quan.... --> 
+        <div>
+            <img src="https://ou.edu.vn/wp-content/uploads/2016/08/Logo.png">
+        </div>
+        <div>
+            <div style="color: #fff;" class="text-footer">LIÊN HỆ</div>
+            <div class="info">
+                <div>
+                    <i class="fa-solid fa-house fa"></i>
+                    <span>35 - 37 Hồ Hảo Hớn, Phường Cô Giang, Quận 1, TP. HCM.</span>
+                    <br>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone fa-rotate-270 fa"></i>
+                    <span>028-38364748.</span>
+                    <br>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope fa"></i>
+                    <span><a href="mailto:ou.edu.vn" class="mail" target="_blank">ou@ou.edu.vn.</a></span>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+            <div style="color: #fff;" class="text-footer">TRANG XÃ HỘI</div>
+            <a href="https://www.facebook.com/TruongDaiHocMo" target="_blank"><i class="fa-brands fa-facebook-f fa-2xl" style="color: #ffffff; width: 10%;"></i></a>
+            <a href="https://www.youtube.com/@HoChiMinhCityOpenUniversity" target="_blank"><i class="fa-brands fa-youtube fa-2xl" style="color: #e41111; width: 10%;"></i></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
